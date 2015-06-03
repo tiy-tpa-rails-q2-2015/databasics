@@ -18,9 +18,10 @@ Who lives at "6439 Zetta Hills, Willmouth, WY"? Do they have another address?
 `SELECT * FROM addresses WHERE user_id = 40;`
 
 Correct Virginie Mitchell's address to "New York, NY, 10108".
-`SELECT * FROM addresses JOIN users ON users.id = addresses.user_id WHERE users.first_name = "Virginie" AND users.last_name = "Mitchell" AND addresses.state = "NY";
 
-UPDATE addresses SET city="New York", zip=10108
+`SELECT * FROM addresses JOIN users ON users.id = addresses.user_id WHERE users.first_name = "Virginie" AND users.last_name = "Mitchell" AND addresses.state = "NY";`
+
+`UPDATE addresses SET city="New York", zip=10108
 WHERE street="12263 Jake Crossing";`
 
 How much would it cost to buy one of each tool?
