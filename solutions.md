@@ -10,6 +10,9 @@ What are the 5 most expensive items?
 
 What's the cheapest book? (Does that change for "category is exactly 'book'" versus "category contains 'book'"?)
 
+`SELECT * FROM items WHERE category LIKE "%Books%" ORDER BY price ASC LIMIT 1;`
+
+
 Who lives at "6439 Zetta Hills, Willmouth, WY"? Do they have another address?
 
 Correct Virginie Mitchell's address to "New York, NY, 10108".
