@@ -1,5 +1,3 @@
-## Normal Mode
-
 How many users are there?
 
 `SELECT COUNT(*) FROM users;`
@@ -34,8 +32,6 @@ How many total items did we sell?
 How much was spent on books?
 
 Simulate buying an item by inserting a User for yourself and an Order for that User.
-
-## Hard Mode
 
 What item was ordered most often? Grossed the most money?
 
