@@ -15,6 +15,7 @@ What's the cheapest book? (Does that change for "category is exactly 'book'" ver
 Who lives at "6439 Zetta Hills, Willmouth, WY"? Do they have another address?
 
 `SELECT * FROM users INNER JOIN addresses ON addresses.user_id = users.id WHERE addresses.street = "6439 Zetta Hills";`
+`SELECT * FROM addresses WHERE user_id = 40;`
 
 Correct Virginie Mitchell's address to "New York, NY, 10108".
 
