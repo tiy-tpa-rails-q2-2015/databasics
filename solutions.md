@@ -25,6 +25,8 @@ Correct Virginie Mitchell's address to "New York, NY, 10108".
 
 How much would it cost to buy one of each tool?
 
+`SELECT SUM(price) FROM items WHERE category LIKE "%Tools%"`
+
 How many total items did we sell?
 
 How much was spent on books?
